@@ -10,7 +10,7 @@ The objective of LeafLINQ is to create a user-friendly, reliable plant monitorin
 
 - **Hardware:** ESP32 microcontroller with DHT11, photoresistor, and LM393 soil moisture sensors
 - **Backend:** ASP.NET Core for REST API, SQL Database for data storage
-- **Frontend:** React for the web application, integrated with the ASP.NET Web API
+- **Frontend:** ASP.net web application
 - **Security:** TLS/SSL certificates, rate limiting, and user access management
 
 ## Project Team
@@ -34,15 +34,6 @@ The objective of LeafLINQ is to create a user-friendly, reliable plant monitorin
 For detailed information on API usage, including authentication, request/response formats, and code examples, please visit our API at 
 [LeafLINQ API](leaflinqwebapi.azurewebsites.net)
 
-
-### Key Endpoints:
-
-- **Temperature:** `/api/temperature`
-- **Humidity:** `/api/humidity`
-- **Soil Moisture:** `/api/soil-moisture`
-- **Light Intensity:** `/api/light-intensity`
-
-For a complete list of endpoints and detailed instructions on how to integrate with our API, please refer to the [API Documentation](https://leaflinqapi.azurewebsites.net/).
 
 ## LeafLINQ Web Application
 
